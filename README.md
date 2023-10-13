@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Veejayz Gen-Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Single Page Application that fetches data from a fake-products API, lists the products, filters them by name and displays additional information when clicked on a title link.
 
-## Available Scripts
+## Live version
 
-In the project directory, you can run:
+You can access the live version [here](https://frabjous-melomakarona-d24e59.netlify.app)).
 
-### `npm start`
+## Video presentation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can access the video presentation of the project [here]().
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Built With
 
-### `npm test`
+- JavaScript/React
+- React Router
+- React-redux
+- Redux-logger
+- JSX
+- CSS
+- VSCode
+- Webpack
+- Babel
+- Linters
+- Jest
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup
 
-### `npm run build`
+- Get the link of the repository: `git@github.com:jkanyi-web/veejaz-gen-store.git`
+- Clone it as `git clone git@github.com:jkanyi-web/veejayz-gen-store.git` on a Terminal
+- Change directory to it by `cd veejayz-gen-store`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Run `npm install` on a Terminal to install the modules
+- Run `npm run start` on a Terminal to start the server 
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tests
 
-### `npm run eject`
+- Run `npm test` on a Terminal to run the test suite
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Author
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+👤 **Victor Kanyi**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- GitHub: [@jkanyi-web](https://github.com/jkanyi-web)
+- Twitter: [@V_Kanyi](https://twitter.com/V_Kanyi)
+- LinkedIn: [victor-kanyi](https://www.linkedin.com/in/victor-kanyi/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🤝 Contributing
 
-## Learn More
+Contributions, issues, and feature requests are welcome!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Show your support
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Give a ⭐️ if you like this project!
 
-### Code Splitting
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Microverse
+- React, Redux and React Router documentation
+- Jest Documentation for Testing.
+- Credits to the original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
