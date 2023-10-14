@@ -8,7 +8,7 @@ You can access the live version [here](https://frabjous-melomakarona-d24e59.netl
 
 ## Video presentation
 
-You can access the video presentation of the project [here]().
+You can access the video presentation of the project [here](https://www.loom.com/share/a9dadb27739d478388b512803fc500c5?sid=4f6c4f20-e08b-459b-a48d-84db47dfc853).
 
 ## Built With
 
