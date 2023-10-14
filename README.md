@@ -185,7 +185,6 @@ Give a ⭐️ if you like this project!
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[What is the purpose and key functionality of this project?]**
 
