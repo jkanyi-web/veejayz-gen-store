@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
@@ -22,27 +24,42 @@ function ItemDetail() {
 
   return (
     <div>
-      {error && (
-      <p>{error}</p>
-      )}
-      {loading && (
-        <p>Loading...</p>
-      )}
+      {error && <h1 className="text-center">{error}</h1>}
+      {loading && <h1 className="text-center">Loading...</h1>}
       {selectedItem ? (
-        <div>
-          <h3>{selectedItem.title}</h3>
-          <p>
-            Price: $
-            {selectedItem.price}
-          </p>
-          <p>
-            {selectedItem.description}
-          </p>
-          <p>
-            {selectedItem.category}
-          </p>
-          <p><img src={selectedItem.image} alt={selectedItem.title} /></p>
-        </div>
+        <ul className="parentUl m-0 p-0">
+          <li className="d-flex justify-content-between">
+            <p>
+              <img src={selectedItem.image} alt={selectedItem.title} />
+            </p>
+          </li>
+          <li className="d-flex justify-content-between">
+            <p>Title: </p>
+            <p>{selectedItem.title}</p>
+          </li>
+          <li className="d-flex justify-content-between">
+            <p> Price: </p>
+            <p>
+              $
+              {selectedItem.price}
+            </p>
+          </li>
+          <li className="d-flex justify-content-between">
+            <p>{selectedItem.description}</p>
+          </li>
+          <li className="d-flex justify-content-between">
+            <p>Category</p>
+            <p>{selectedItem.category}</p>
+          </li>
+          <li className="d-flex justify-content-between">
+            <p>Count</p>
+            <p>{selectedItem.rating.rate}</p>
+          </li>
+          <li className="d-flex justify-content-between">
+            <p>Rating</p>
+            <p>{selectedItem.rating.count}</p>
+          </li>
+        </ul>
       ) : null}
     </div>
   );

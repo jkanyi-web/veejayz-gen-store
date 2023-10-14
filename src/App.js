@@ -8,14 +8,17 @@ import ItemDetail from './redux/features/itemDetail';
 function App() {
   return (
     <>
-      <Header />
-      <BrowserRouter>
-        <Routes>
-          <Route index element={<Items />} />
-          <Route path="/home" element={<Items />} />
-          <Route path="/item/:itemId" element={<ItemDetail />} />
-        </Routes>
-      </BrowserRouter>
+      <div>
+        <Header />
+        <BrowserRouter>
+          <Routes>
+            <Route index element={<Items />} />
+            <Route path="/" element={<Items />} />
+            <Route path="/home" element={<Items />} />
+            <Route path="/item/:itemId" element={<ItemDetail />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
     </>
   );
 }
