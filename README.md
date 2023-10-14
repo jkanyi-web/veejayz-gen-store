@@ -62,7 +62,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **[React-Redux Fetch Api]**
 - **[Search Bar that filters products based on name]**
