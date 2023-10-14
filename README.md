@@ -29,7 +29,7 @@
 
 # 📖 Veejayz Gen-Store <a name="about-project"></a>
 
-**[your_project__name]** is a Single Page Application that fetches data from a fake-products API, lists the products, filters them by name and displays additional information when clicked on a title link.
+**Veejayz Gen-Store** is a Single Page Application that fetches data from a fake-products API, lists the products, filters them by name and displays additional information when clicked on a title link.
 
 ## 🛠 Built With <a name="built-with"></a>
 
