@@ -1,70 +1,204 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+  - [ Video Presentation](#video-presentation) 
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📖 Veejayz Gen-Store <a name="about-project"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Veejayz Gen-Store** is a Single Page Application that fetches data from a fake-products API, lists the products, filters them by name and displays additional information when clicked on a title link.
 
-### `npm test`
+## 🛠 Built With <a name="built-with"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm run build`
+- JavaScript/React
+- React Router
+- React-redux
+- Redux-logger
+- JSX
+- CSS
+- VSCode
+- Webpack
+- Babel
+- Linters
+- Jest
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://app.netlify.com/">Netlify App</a></li>
+  </ul>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Key Features <a name="key-features"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **[React-Redux Fetch Api]**
+- **[Search Bar that filters products based on name]**
+- **[Click on products title to see more details about product]**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 🚀 Live Demo <a name="live-demo"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Live Demo Link](https://frabjous-melomakarona-d24e59.netlify.app))
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Video presentation <a name="video-presentation"><a/>
 
-### Analyzing the Bundle Size
+You can access the video presentation of the project [here](https://www.loom.com/share/a9dadb27739d478388b512803fc500c5?sid=4f6c4f20-e08b-459b-a48d-84db47dfc853).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Making a Progressive Web App
+<!-- GETTING STARTED -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Advanced Configuration
+To get a local copy up and running, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Get the link of the repository: `git@github.com:jkanyi-web/veejaz-gen-store.git`
+- Clone it as `git clone git@github.com:jkanyi-web/veejayz-gen-store.git` on a Terminal
+- Change directory to it by `cd veejayz-gen-store`
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Prerequisites
 
-### `npm run build` fails to minify
+In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Run `npm install` on a Terminal to install the modules
+- Run `npm start` on a Terminal to start the server 
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### Setup
+
+Clone this repository to your desired folder:
+
+  cd veejayz-gen-store
+  git clone git@github.com:jkanyi-web/veejayz-gen-store.git
+
+
+### Install
+
+Install this project with:
+
+  cd veejayz-gen-store
+  npm install
+
+### Usage
+
+To run the project, execute the following command:
+
+- npm run build
+
+### Run tests
+
+To run tests, run the following command:
+
+- npm test
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 👥 Author <a name="authors"></a>
+
+👤 **Victor Kanyi**
+
+- GitHub: [@jkanyi-web](https://github.com/jkanyi-web)
+- Twitter: [@V_Kanyi](https://twitter.com/V_Kanyi)
+- LinkedIn: [victor-kanyi](https://www.linkedin.com/in/victor-kanyi/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **[More styling to enhance user experience]**
+- [ ] **[More products in the catalogue]**
+- [ ] **[An e-commerce feature that enables buyers purchase products from the site]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/jkanyi-web/veejayz-gen-store/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Microverse
+- React, Redux and React Router documentation
+- Jest Documentation for Testing.
+- Credits to the original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+
+- **[What is the purpose and key functionality of this project?]**
+
+  - [Our project is designed to fetch products using React-Redux and display it on the screen for users. It contains features like search bar functionality and a user can click on the product title to see more details about a particular product, all enhancing user experience.]
+
+- **[What technologies or tools are used in this project, and what are the requirements for development and deployment?]**
+
+  - [Our project is built using React and Redux. To develop and contribute to the project, you'll need "Node.js, npm/yarn, Git". For deployment, you can host it on platforms like "Heroku, Netlify, AWS", Vercel, just to name a few. We also provide clear documentation to guide you through the setup and deployment process.]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
